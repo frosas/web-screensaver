@@ -2,7 +2,16 @@
 
 <style>
     html { min-height: 100% }
-    body { background-size: cover }
+    body {
+        background-size: cover;
+        
+        /* "The image must be scaled with an algorithm that preserves contrast 
+         * and edges in the image, and which does not smooth colors or introduce 
+         * blur to the image in the process. This is intended for images such as
+         * pixel art." */
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+    }
 </style>
 
 <body />
