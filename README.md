@@ -1,6 +1,6 @@
 To be used along with, for example, https://github.com/liquidx/webviewscreensaver
 
-```
+```bash
 $ nvm install # To use right version of Node
 $ npm i
 $ node build
