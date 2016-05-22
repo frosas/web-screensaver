@@ -1,8 +1,8 @@
 <!doctype html>
 
 <style>
-    html { min-height: 100% }
-    body {
+    html {
+        min-height: 100%;
         background-size: cover;
         
         /* "The image must be scaled with an algorithm that preserves contrast 
@@ -14,10 +14,8 @@
     }
 </style>
 
-<body />
-
 <script>
     const images = <%- JSON.stringify(images) %>;
     const image = images[Math.round(Math.random() * (images.length - 1))];
-    document.body.style.backgroundImage = `url(${image})`;
+    document.documentElement.style.backgroundImage = `url(${image})`;
 </script>
