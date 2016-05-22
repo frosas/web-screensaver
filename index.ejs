@@ -1,0 +1,14 @@
+<!doctype html>
+
+<style>
+    html { min-height: 100% }
+    body { background-size: cover }
+</style>
+
+<body />
+
+<script>
+    const images = <%- JSON.stringify(images) %>;
+    const image = images[Math.round(Math.random() * (images.length - 1))];
+    document.body.style.backgroundImage = `url(${image})`;
+</script>
