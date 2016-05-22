@@ -6,4 +6,4 @@ $ node build
 $ open public/index.html
 ```
 
-Images by [豊井祐太](http://1041uuu.tumblr.com).
+Images by [豊井祐太](http://1041uuu.tumblr.com) and others.
