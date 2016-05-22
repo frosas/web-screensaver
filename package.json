@@ -1,7 +1,7 @@
 {
   "private": true,
   "devDependencies": {
-    "bluebird": "^3.4.0",
-    "ejs": "^2.4.1"
+    "ejs": "^2.4.1",
+    "potpourri": "0.0.2"
   }
 }

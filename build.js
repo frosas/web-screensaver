@@ -1,8 +1,8 @@
 const ejs = require('ejs');
 const fs = require('fs');
-const promisify = require('bluebird').promisify;
+const {promisify} = require('potpourri/dist/es5');
 
-process.on('unhandledRejection', console.error);
+process.on('unhandledRejection', error => { throw error; });
 
 const whenTemplate = promisify(fs.readFile)('index.ejs', 'utf8');
 
