@@ -8,3 +8,5 @@ $ open public/index.html
 ```
 
 Images by [豊井祐太](http://1041uuu.tumblr.com) and others.
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/frosas/web-screensaver.svg)](https://greenkeeper.io/)
